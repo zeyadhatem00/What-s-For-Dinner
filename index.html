@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What's For Dinner</title>
+    <link rel="shortcut icon" href="images/recipe.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top py-3 bg-body shadow-sm">
+      <div class="container-xxl px">
+        <div class="d-flex align-items-center">
+          <div
+            class="nav-fork rounded-circle shadow d-flex justify-content-center align-items-center"
+          >
+            <i class="fa-solid fa-utensils fa-lg" style="color: #ffffff"></i>
+          </div>
+          <div>
+            <h1 class="h-nav m-0">What's For Dinner</h1>
+            <p class="p-nav m-0">Your daily meal inspiration</p>
+          </div>
+        </div>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav ms-lg-auto nav-mobile d-lg-flex align-items-lg-center"
+          >
+            <li class="nav-item">
+              <button class="bg-transparent icon border-0">
+                <i class="fa-solid cursor me-3 fa-lg fa-bookmark"></i
+                ><span class="d-lg-none">Saved Recipes</span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="bg-transparent icon border-0">
+                <i class="fa-solid cursor me-3 fa-lg fa-clock-rotate-left"></i
+                ><span class="d-lg-none">Recent</span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="bg-transparent icon border-0">
+                <i class="fa-solid cursor me-3 fa-lg fa-gear"></i
+                ><span class="d-lg-none">Settings</span>
+              </button>
+            </li>
+            <li class="nav-item img-mob">
+              <img
+                src="images/avatar.jpg"
+                alt="avatar"
+                class="img-nav rounded-circle"
+              />
+              <span class="d-lg-none span-mob">Profile</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main
+      class="d-flex align-items-center pt-5 pb-5 pt-lg-0 pb-lg-0 justify-content-center min-vh-100"
+    >
+      <div class="container-xxl nn media-pad py-lg-3">
+        <div class="row kk media-w" id="row"></div>
+      </div>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

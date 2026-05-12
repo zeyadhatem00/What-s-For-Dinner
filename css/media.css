@@ -1,0 +1,264 @@
+@media screen and (max-width: 991.98px) {
+  .media-w {
+    width: 93%;
+    margin: auto;
+  }
+  .media-pad {
+    padding-top: 65px;
+  }
+  .media-h {
+    height: 400px;
+  }
+  .image {
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+  }
+  .ro {
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+  }
+  .rev {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+  }
+  .rate {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .media-paddd {
+    padding: 13px 5px !important;
+  }
+  .p-down {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .p-down-2 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .i-med {
+    font-size: 1.1em;
+    line-height: 0.07143em;
+    vertical-align: 0.05357em;
+    margin-bottom: 12px;
+  }
+  .w-down {
+    width: 86.5%;
+  }
+  .star {
+    font-size: 0.8em;
+    line-height: 0.07143em;
+    vertical-align: 0.05357em;
+    padding-top: 2px;
+  }
+  .h-nav {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .p-nav {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+  }
+
+  .icon {
+    padding: 10px 5px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4a5566;
+    align-items: center;
+    transition: all 0.2s;
+  }
+  .icon:hover {
+    color: rgb(245, 73, 0);
+  }
+  .px {
+    padding: 0 10px 0 24px;
+  }
+
+  button.navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-toggler {
+    transition: all 0.2s;
+  }
+  .navbar-toggler:hover {
+    color: rgb(245, 73, 0);
+  }
+  .nav-mobile {
+    padding-top: 10px;
+    border-top: 1px solid rgb(255, 237, 212);
+    margin-top: 15px;
+  }
+
+  .img-mob {
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+  }
+  .img-nav {
+    width: 29px;
+    height: 29px;
+    margin-right: 16px;
+  }
+
+  .img-mob {
+    transition: all 0.2s;
+    cursor: pointer;
+    padding: 10px 5px;
+  }
+  .img-mob:hover .span-mob {
+    color: rgb(245, 73, 0);
+  }
+  .span-mob {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(74, 85, 102);
+  }
+
+  .hig {
+    overflow: visible !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+    height: auto;
+  }
+
+  .h3-card {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+  .p-card {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .p-40 {
+    padding: 20px;
+  }
+
+  .fl {
+    flex-direction: column;
+  }
+
+  .self {
+    margin-left: auto;
+  }
+  .up-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .z {
+    flex-wrap: nowrap;
+    padding: 16px 8px 16px 4px !important;
+  }
+  .a {
+    width: 20%;
+  }
+  button.nav-link.tab-btn {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 0 0 8px 0;
+    width: 100%;
+  }
+  .ins-p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .ins {
+    flex-shrink: 0;
+  }
+  .h {
+    scrollbar-width: none;
+  }
+  .left-p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+  .cal-p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+
+  .true-p {
+    font-size: 13px;
+  }
+
+  .py-12 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .true {
+    flex-shrink: 0;
+  }
+
+  .dots {
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  .warn-p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .warn-p-2 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .nn {
+    width: 95%;
+  }
+  .z {
+    flex-wrap: nowrap;
+    padding: 16px 8px 16px 4px !important;
+  }
+  .a {
+    width: 26%;
+  }
+  .dots {
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  .xx {
+    flex-direction: column;
+  }
+  .xz {
+    width: 100%;
+  }
+  button.nav-link.tab-btn {
+    width: 90%;
+  }
+}
