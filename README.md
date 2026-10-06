@@ -27,7 +27,7 @@ There is no package manifest, build configuration, dependency installation step,
 1. Clone the repository and enter its root directory:
 
    ```bash
-   git clone https://github.com/zeyadhatem00/What-s-For-Dinner.git
+   git clone https://github.com/zeyadhatem00/whats-for-dinner.git
    cd What-s-For-Dinner
    ```
 
